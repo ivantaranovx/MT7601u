@@ -1,0 +1,1669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="src">
+        <df name="ap">
+          <in>ap.c</in>
+          <in>ap_assoc.c</in>
+          <in>ap_auth.c</in>
+          <in>ap_autoChSel.c</in>
+          <in>ap_cfg.c</in>
+          <in>ap_connect.c</in>
+          <in>ap_data.c</in>
+          <in>ap_mbss.c</in>
+          <in>ap_mbss_inf.c</in>
+          <in>ap_mlme.c</in>
+          <in>ap_qload.c</in>
+          <in>ap_sanity.c</in>
+          <in>ap_sync.c</in>
+          <in>ap_wpa.c</in>
+        </df>
+        <df name="ate">
+          <df name="chips">
+            <in>mt7601_ate.c</in>
+          </df>
+          <df name="common">
+            <in>ate_usb.c</in>
+            <in>rt_ate.c</in>
+            <in>rt_qa.c</in>
+          </df>
+        </df>
+        <df name="chips">
+          <in>mt7601.c</in>
+          <in>rtmp_chip.c</in>
+        </df>
+        <df name="common">
+          <in>action.c</in>
+          <in>ba_action.c</in>
+          <in>cmm_aes.c</in>
+          <in>cmm_asic.c</in>
+          <in>cmm_cfg.c</in>
+          <in>cmm_cmd.c</in>
+          <in>cmm_data.c</in>
+          <in>cmm_data_usb.c</in>
+          <in>cmm_info.c</in>
+          <in>cmm_mac_usb.c</in>
+          <in>cmm_profile.c</in>
+          <in>cmm_radar.c</in>
+          <in>cmm_sanity.c</in>
+          <in>cmm_sync.c</in>
+          <in>cmm_tkip.c</in>
+          <in>cmm_wep.c</in>
+          <in>cmm_wpa.c</in>
+          <in>crypt_aes.c</in>
+          <in>crypt_arc4.c</in>
+          <in>crypt_biginteger.c</in>
+          <in>crypt_dh.c</in>
+          <in>crypt_hmac.c</in>
+          <in>crypt_md5.c</in>
+          <in>crypt_sha2.c</in>
+          <in>ee_efuse.c</in>
+          <in>ee_prom.c</in>
+          <in>eeprom.c</in>
+          <in>frq_cal.c</in>
+          <in>mlme.c</in>
+          <in>ps.c</in>
+          <in>rt_channel.c</in>
+          <in>rt_os_util.c</in>
+          <in>rt_rf.c</in>
+          <in>rtmp_init.c</in>
+          <in>rtmp_init_inf.c</in>
+          <in>rtmp_timer.c</in>
+          <in>rtusb_bulk.c</in>
+          <in>rtusb_data.c</in>
+          <in>rtusb_dev_id.c</in>
+          <in>rtusb_io.c</in>
+          <in>scan.c</in>
+          <in>spectrum.c</in>
+          <in>txpower.c</in>
+          <in>uapsd.c</in>
+          <in>wsc.c</in>
+          <in>wsc_tlv.c</in>
+          <in>wsc_ufd.c</in>
+          <in>wsc_v2.c</in>
+        </df>
+        <df name="mac">
+          <in>ral_omac.c</in>
+          <in>rtmp_mac.c</in>
+        </df>
+        <df name="mcu">
+          <in>rtmp_M51.c</in>
+          <in>rtmp_and.c</in>
+          <in>rtmp_mcu.c</in>
+        </df>
+        <df name="mgmt">
+          <in>mgmt_entrytb.c</in>
+          <in>mgmt_ht.c</in>
+          <in>mgmt_hw.c</in>
+        </df>
+        <df name="os">
+          <df name="linux">
+            <in>ap_ioctl.c</in>
+            <in>mt7601Uap.mod.c</in>
+            <in>rt_linux.c</in>
+            <in>rt_linux_symb.c</in>
+            <in>rt_main_dev.c</in>
+            <in>rt_profile.c</in>
+            <in>rt_rbus_pci_util.c</in>
+            <in>rt_symb.c</in>
+            <in>rt_usb.c</in>
+            <in>rt_usb_util.c</in>
+            <in>rtnet7601Uap.mod.c</in>
+            <in>rtutil7601Uap.mod.c</in>
+            <in>usb_main_dev.c</in>
+          </df>
+        </df>
+        <df name="phy">
+          <in>rlt_phy.c</in>
+          <in>rlt_rf.c</in>
+          <in>rtmp_phy.c</in>
+        </df>
+        <df name="rate_ctrl">
+          <in>alg_ags.c</in>
+          <in>alg_legacy.c</in>
+          <in>ra_ctrl.c</in>
+        </df>
+        <df name="tools">
+          <in>bin2h.c</in>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Важные файлы"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0"
+                 commonFlags="-fshort-wchar -std=gnu89 -m32 -msoft-float -march=i686 -mtune=generic -Wa,-mtune=generic32 -ffreestanding -O2 -fstack-protector-strong"/>
+        <element flagsID="1" commonFlags="-g"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <folder path="0/src/ap">
+        <cTool>
+          <incDir>
+            <pElem>/usr/lib/gcc/i686-linux-gnu/5/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/generated</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/generated/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include/generated/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/ubuntu/include</pElem>
+            <pElem>src/include</pElem>
+            <pElem>src/ate/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>AGGREGATION_SUPPORT</Elem>
+            <Elem>AP_SCAN_SUPPORT</Elem>
+            <Elem>CC_HAVE_ASM_GOTO</Elem>
+            <Elem>CC_USING_FENTRY</Elem>
+            <Elem>CHIPSET=7601U</Elem>
+            <Elem>CONFIG_ANDES_SUPPORT</Elem>
+            <Elem>CONFIG_AP_SUPPORT</Elem>
+            <Elem>CONFIG_AS_AVX2=1</Elem>
+            <Elem>CONFIG_AS_AVX512=1</Elem>
+            <Elem>CONFIG_AS_AVX=1</Elem>
+            <Elem>CONFIG_AS_CFI=1</Elem>
+            <Elem>CONFIG_AS_CFI_SECTIONS=1</Elem>
+            <Elem>CONFIG_AS_CFI_SIGNAL_FRAME=1</Elem>
+            <Elem>CONFIG_AS_CRC32=1</Elem>
+            <Elem>CONFIG_AS_SHA1_NI=1</Elem>
+            <Elem>CONFIG_AS_SHA256_NI=1</Elem>
+            <Elem>CONFIG_AS_SSSE3=1</Elem>
+            <Elem>CONFIG_RT2880_ATE_CMD_NEW</Elem>
+            <Elem>CONFIG_RX_CSO_SUPPORT</Elem>
+            <Elem>DBG</Elem>
+            <Elem>DOT11N_DRAFT3</Elem>
+            <Elem>DOT11_N_SUPPORT</Elem>
+            <Elem>DOT1X_SUPPORT</Elem>
+            <Elem>DPD_CALIBRATION_SUPPORT</Elem>
+            <Elem>EXPORT_SYMTAB</Elem>
+            <Elem>HOSTAPD_SUPPORT</Elem>
+            <Elem>IAPP_SUPPORT</Elem>
+            <Elem>KBUILD_BASENAME="ap"</Elem>
+            <Elem>KBUILD_MODNAME="mt7601Uap"</Elem>
+            <Elem>LINUX</Elem>
+            <Elem>MBSS_SUPPORT</Elem>
+            <Elem>MODULE</Elem>
+            <Elem>MT7601</Elem>
+            <Elem>MT7601U</Elem>
+            <Elem>NEW_MBSSID_MODE</Elem>
+            <Elem>OS_ABL_FUNC_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_AP_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_PCI_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_STA_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_USB_SUPPORT</Elem>
+            <Elem>OS_ABL_SUPPORT</Elem>
+            <Elem>PIGGYBACK_SUPPORT</Elem>
+            <Elem>RALINK_ATE</Elem>
+            <Elem>RALINK_QA</Elem>
+            <Elem>RESOURCE_PRE_ALLOC</Elem>
+            <Elem>RETPOLINE</Elem>
+            <Elem>RLT_MAC</Elem>
+            <Elem>RLT_RF</Elem>
+            <Elem>RT28xx_MODE=AP</Elem>
+            <Elem>RTMP_EFUSE_SUPPORT</Elem>
+            <Elem>RTMP_INTERNAL_TX_ALC</Elem>
+            <Elem>RTMP_MAC_USB</Elem>
+            <Elem>RTMP_TIMER_TASK_SUPPORT</Elem>
+            <Elem>RTMP_USB_SUPPORT</Elem>
+            <Elem>RX_DMA_SCATTER</Elem>
+            <Elem>SCAN_SUPPORT</Elem>
+            <Elem>STATS_COUNT_SUPPORT</Elem>
+            <Elem>SYSTEM_LOG_SUPPORT</Elem>
+            <Elem>UAPSD_SUPPORT</Elem>
+            <Elem>VCORECAL_SUPPORT</Elem>
+            <Elem>WMM_SUPPORT</Elem>
+            <Elem>WSC_AP_SUPPORT</Elem>
+            <Elem>WSC_V2_SUPPORT</Elem>
+            <Elem>__KERNEL__</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/src/ate">
+        <cTool>
+          <incDir>
+            <pElem>/usr/lib/gcc/i686-linux-gnu/5/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/generated</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/generated/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include/generated/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/ubuntu/include</pElem>
+            <pElem>src/include</pElem>
+            <pElem>src/ate/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>AGGREGATION_SUPPORT</Elem>
+            <Elem>AP_SCAN_SUPPORT</Elem>
+            <Elem>CC_HAVE_ASM_GOTO</Elem>
+            <Elem>CC_USING_FENTRY</Elem>
+            <Elem>CHIPSET=7601U</Elem>
+            <Elem>CONFIG_ANDES_SUPPORT</Elem>
+            <Elem>CONFIG_AP_SUPPORT</Elem>
+            <Elem>CONFIG_AS_AVX2=1</Elem>
+            <Elem>CONFIG_AS_AVX512=1</Elem>
+            <Elem>CONFIG_AS_AVX=1</Elem>
+            <Elem>CONFIG_AS_CFI=1</Elem>
+            <Elem>CONFIG_AS_CFI_SECTIONS=1</Elem>
+            <Elem>CONFIG_AS_CFI_SIGNAL_FRAME=1</Elem>
+            <Elem>CONFIG_AS_CRC32=1</Elem>
+            <Elem>CONFIG_AS_SHA1_NI=1</Elem>
+            <Elem>CONFIG_AS_SHA256_NI=1</Elem>
+            <Elem>CONFIG_AS_SSSE3=1</Elem>
+            <Elem>CONFIG_RT2880_ATE_CMD_NEW</Elem>
+            <Elem>CONFIG_RX_CSO_SUPPORT</Elem>
+            <Elem>DBG</Elem>
+            <Elem>DOT11N_DRAFT3</Elem>
+            <Elem>DOT11_N_SUPPORT</Elem>
+            <Elem>DOT1X_SUPPORT</Elem>
+            <Elem>DPD_CALIBRATION_SUPPORT</Elem>
+            <Elem>EXPORT_SYMTAB</Elem>
+            <Elem>HOSTAPD_SUPPORT</Elem>
+            <Elem>IAPP_SUPPORT</Elem>
+            <Elem>KBUILD_BASENAME="mt7601_ate"</Elem>
+            <Elem>KBUILD_MODNAME="mt7601Uap"</Elem>
+            <Elem>LINUX</Elem>
+            <Elem>MBSS_SUPPORT</Elem>
+            <Elem>MODULE</Elem>
+            <Elem>MT7601</Elem>
+            <Elem>MT7601U</Elem>
+            <Elem>NEW_MBSSID_MODE</Elem>
+            <Elem>OS_ABL_FUNC_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_AP_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_PCI_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_STA_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_USB_SUPPORT</Elem>
+            <Elem>OS_ABL_SUPPORT</Elem>
+            <Elem>PIGGYBACK_SUPPORT</Elem>
+            <Elem>RALINK_ATE</Elem>
+            <Elem>RALINK_QA</Elem>
+            <Elem>RESOURCE_PRE_ALLOC</Elem>
+            <Elem>RETPOLINE</Elem>
+            <Elem>RLT_MAC</Elem>
+            <Elem>RLT_RF</Elem>
+            <Elem>RT28xx_MODE=AP</Elem>
+            <Elem>RTMP_EFUSE_SUPPORT</Elem>
+            <Elem>RTMP_INTERNAL_TX_ALC</Elem>
+            <Elem>RTMP_MAC_USB</Elem>
+            <Elem>RTMP_TIMER_TASK_SUPPORT</Elem>
+            <Elem>RTMP_USB_SUPPORT</Elem>
+            <Elem>RX_DMA_SCATTER</Elem>
+            <Elem>SCAN_SUPPORT</Elem>
+            <Elem>STATS_COUNT_SUPPORT</Elem>
+            <Elem>SYSTEM_LOG_SUPPORT</Elem>
+            <Elem>UAPSD_SUPPORT</Elem>
+            <Elem>VCORECAL_SUPPORT</Elem>
+            <Elem>WMM_SUPPORT</Elem>
+            <Elem>WSC_AP_SUPPORT</Elem>
+            <Elem>WSC_V2_SUPPORT</Elem>
+            <Elem>__KERNEL__</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/src/ate/common">
+        <cTool>
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="ate_usb"</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/src/chips">
+        <cTool>
+          <incDir>
+            <pElem>/usr/lib/gcc/i686-linux-gnu/5/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/generated</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/generated/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include/generated/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/ubuntu/include</pElem>
+            <pElem>src/include</pElem>
+            <pElem>src/ate/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>AGGREGATION_SUPPORT</Elem>
+            <Elem>AP_SCAN_SUPPORT</Elem>
+            <Elem>CC_HAVE_ASM_GOTO</Elem>
+            <Elem>CC_USING_FENTRY</Elem>
+            <Elem>CHIPSET=7601U</Elem>
+            <Elem>CONFIG_ANDES_SUPPORT</Elem>
+            <Elem>CONFIG_AP_SUPPORT</Elem>
+            <Elem>CONFIG_AS_AVX2=1</Elem>
+            <Elem>CONFIG_AS_AVX512=1</Elem>
+            <Elem>CONFIG_AS_AVX=1</Elem>
+            <Elem>CONFIG_AS_CFI=1</Elem>
+            <Elem>CONFIG_AS_CFI_SECTIONS=1</Elem>
+            <Elem>CONFIG_AS_CFI_SIGNAL_FRAME=1</Elem>
+            <Elem>CONFIG_AS_CRC32=1</Elem>
+            <Elem>CONFIG_AS_SHA1_NI=1</Elem>
+            <Elem>CONFIG_AS_SHA256_NI=1</Elem>
+            <Elem>CONFIG_AS_SSSE3=1</Elem>
+            <Elem>CONFIG_RT2880_ATE_CMD_NEW</Elem>
+            <Elem>CONFIG_RX_CSO_SUPPORT</Elem>
+            <Elem>DBG</Elem>
+            <Elem>DOT11N_DRAFT3</Elem>
+            <Elem>DOT11_N_SUPPORT</Elem>
+            <Elem>DOT1X_SUPPORT</Elem>
+            <Elem>DPD_CALIBRATION_SUPPORT</Elem>
+            <Elem>EXPORT_SYMTAB</Elem>
+            <Elem>HOSTAPD_SUPPORT</Elem>
+            <Elem>IAPP_SUPPORT</Elem>
+            <Elem>KBUILD_BASENAME="mt7601"</Elem>
+            <Elem>KBUILD_MODNAME="mt7601Uap"</Elem>
+            <Elem>LINUX</Elem>
+            <Elem>MBSS_SUPPORT</Elem>
+            <Elem>MODULE</Elem>
+            <Elem>MT7601</Elem>
+            <Elem>MT7601U</Elem>
+            <Elem>NEW_MBSSID_MODE</Elem>
+            <Elem>OS_ABL_FUNC_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_AP_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_PCI_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_STA_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_USB_SUPPORT</Elem>
+            <Elem>OS_ABL_SUPPORT</Elem>
+            <Elem>PIGGYBACK_SUPPORT</Elem>
+            <Elem>RALINK_ATE</Elem>
+            <Elem>RALINK_QA</Elem>
+            <Elem>RESOURCE_PRE_ALLOC</Elem>
+            <Elem>RETPOLINE</Elem>
+            <Elem>RLT_MAC</Elem>
+            <Elem>RLT_RF</Elem>
+            <Elem>RT28xx_MODE=AP</Elem>
+            <Elem>RTMP_EFUSE_SUPPORT</Elem>
+            <Elem>RTMP_INTERNAL_TX_ALC</Elem>
+            <Elem>RTMP_MAC_USB</Elem>
+            <Elem>RTMP_TIMER_TASK_SUPPORT</Elem>
+            <Elem>RTMP_USB_SUPPORT</Elem>
+            <Elem>RX_DMA_SCATTER</Elem>
+            <Elem>SCAN_SUPPORT</Elem>
+            <Elem>STATS_COUNT_SUPPORT</Elem>
+            <Elem>SYSTEM_LOG_SUPPORT</Elem>
+            <Elem>UAPSD_SUPPORT</Elem>
+            <Elem>VCORECAL_SUPPORT</Elem>
+            <Elem>WMM_SUPPORT</Elem>
+            <Elem>WSC_AP_SUPPORT</Elem>
+            <Elem>WSC_V2_SUPPORT</Elem>
+            <Elem>__KERNEL__</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/src/common">
+        <cTool>
+          <incDir>
+            <pElem>/usr/lib/gcc/i686-linux-gnu/5/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/generated</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/generated/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include/generated/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/ubuntu/include</pElem>
+            <pElem>src/include</pElem>
+            <pElem>src/ate/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>AGGREGATION_SUPPORT</Elem>
+            <Elem>AP_SCAN_SUPPORT</Elem>
+            <Elem>CC_HAVE_ASM_GOTO</Elem>
+            <Elem>CC_USING_FENTRY</Elem>
+            <Elem>CHIPSET=7601U</Elem>
+            <Elem>CONFIG_ANDES_SUPPORT</Elem>
+            <Elem>CONFIG_AP_SUPPORT</Elem>
+            <Elem>CONFIG_AS_AVX2=1</Elem>
+            <Elem>CONFIG_AS_AVX512=1</Elem>
+            <Elem>CONFIG_AS_AVX=1</Elem>
+            <Elem>CONFIG_AS_CFI=1</Elem>
+            <Elem>CONFIG_AS_CFI_SECTIONS=1</Elem>
+            <Elem>CONFIG_AS_CFI_SIGNAL_FRAME=1</Elem>
+            <Elem>CONFIG_AS_CRC32=1</Elem>
+            <Elem>CONFIG_AS_SHA1_NI=1</Elem>
+            <Elem>CONFIG_AS_SHA256_NI=1</Elem>
+            <Elem>CONFIG_AS_SSSE3=1</Elem>
+            <Elem>CONFIG_RT2880_ATE_CMD_NEW</Elem>
+            <Elem>CONFIG_RX_CSO_SUPPORT</Elem>
+            <Elem>DBG</Elem>
+            <Elem>DOT11N_DRAFT3</Elem>
+            <Elem>DOT11_N_SUPPORT</Elem>
+            <Elem>DOT1X_SUPPORT</Elem>
+            <Elem>DPD_CALIBRATION_SUPPORT</Elem>
+            <Elem>EXPORT_SYMTAB</Elem>
+            <Elem>HOSTAPD_SUPPORT</Elem>
+            <Elem>IAPP_SUPPORT</Elem>
+            <Elem>KBUILD_BASENAME="action"</Elem>
+            <Elem>KBUILD_MODNAME="mt7601Uap"</Elem>
+            <Elem>LINUX</Elem>
+            <Elem>MBSS_SUPPORT</Elem>
+            <Elem>MODULE</Elem>
+            <Elem>MT7601</Elem>
+            <Elem>MT7601U</Elem>
+            <Elem>NEW_MBSSID_MODE</Elem>
+            <Elem>OS_ABL_FUNC_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_AP_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_PCI_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_STA_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_USB_SUPPORT</Elem>
+            <Elem>OS_ABL_SUPPORT</Elem>
+            <Elem>PIGGYBACK_SUPPORT</Elem>
+            <Elem>RALINK_ATE</Elem>
+            <Elem>RALINK_QA</Elem>
+            <Elem>RESOURCE_PRE_ALLOC</Elem>
+            <Elem>RETPOLINE</Elem>
+            <Elem>RLT_MAC</Elem>
+            <Elem>RLT_RF</Elem>
+            <Elem>RT28xx_MODE=AP</Elem>
+            <Elem>RTMP_EFUSE_SUPPORT</Elem>
+            <Elem>RTMP_INTERNAL_TX_ALC</Elem>
+            <Elem>RTMP_MAC_USB</Elem>
+            <Elem>RTMP_TIMER_TASK_SUPPORT</Elem>
+            <Elem>RTMP_USB_SUPPORT</Elem>
+            <Elem>RX_DMA_SCATTER</Elem>
+            <Elem>SCAN_SUPPORT</Elem>
+            <Elem>STATS_COUNT_SUPPORT</Elem>
+            <Elem>SYSTEM_LOG_SUPPORT</Elem>
+            <Elem>UAPSD_SUPPORT</Elem>
+            <Elem>VCORECAL_SUPPORT</Elem>
+            <Elem>WMM_SUPPORT</Elem>
+            <Elem>WSC_AP_SUPPORT</Elem>
+            <Elem>WSC_V2_SUPPORT</Elem>
+            <Elem>__KERNEL__</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/src/mac">
+        <cTool>
+          <incDir>
+            <pElem>/usr/lib/gcc/i686-linux-gnu/5/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/generated</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/generated/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include/generated/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/ubuntu/include</pElem>
+            <pElem>src/include</pElem>
+            <pElem>src/ate/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>AGGREGATION_SUPPORT</Elem>
+            <Elem>AP_SCAN_SUPPORT</Elem>
+            <Elem>CC_HAVE_ASM_GOTO</Elem>
+            <Elem>CC_USING_FENTRY</Elem>
+            <Elem>CHIPSET=7601U</Elem>
+            <Elem>CONFIG_ANDES_SUPPORT</Elem>
+            <Elem>CONFIG_AP_SUPPORT</Elem>
+            <Elem>CONFIG_AS_AVX2=1</Elem>
+            <Elem>CONFIG_AS_AVX512=1</Elem>
+            <Elem>CONFIG_AS_AVX=1</Elem>
+            <Elem>CONFIG_AS_CFI=1</Elem>
+            <Elem>CONFIG_AS_CFI_SECTIONS=1</Elem>
+            <Elem>CONFIG_AS_CFI_SIGNAL_FRAME=1</Elem>
+            <Elem>CONFIG_AS_CRC32=1</Elem>
+            <Elem>CONFIG_AS_SHA1_NI=1</Elem>
+            <Elem>CONFIG_AS_SHA256_NI=1</Elem>
+            <Elem>CONFIG_AS_SSSE3=1</Elem>
+            <Elem>CONFIG_RT2880_ATE_CMD_NEW</Elem>
+            <Elem>CONFIG_RX_CSO_SUPPORT</Elem>
+            <Elem>DBG</Elem>
+            <Elem>DOT11N_DRAFT3</Elem>
+            <Elem>DOT11_N_SUPPORT</Elem>
+            <Elem>DOT1X_SUPPORT</Elem>
+            <Elem>DPD_CALIBRATION_SUPPORT</Elem>
+            <Elem>EXPORT_SYMTAB</Elem>
+            <Elem>HOSTAPD_SUPPORT</Elem>
+            <Elem>IAPP_SUPPORT</Elem>
+            <Elem>KBUILD_BASENAME="ral_omac"</Elem>
+            <Elem>KBUILD_MODNAME="mt7601Uap"</Elem>
+            <Elem>LINUX</Elem>
+            <Elem>MBSS_SUPPORT</Elem>
+            <Elem>MODULE</Elem>
+            <Elem>MT7601</Elem>
+            <Elem>MT7601U</Elem>
+            <Elem>NEW_MBSSID_MODE</Elem>
+            <Elem>OS_ABL_FUNC_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_AP_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_PCI_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_STA_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_USB_SUPPORT</Elem>
+            <Elem>OS_ABL_SUPPORT</Elem>
+            <Elem>PIGGYBACK_SUPPORT</Elem>
+            <Elem>RALINK_ATE</Elem>
+            <Elem>RALINK_QA</Elem>
+            <Elem>RESOURCE_PRE_ALLOC</Elem>
+            <Elem>RETPOLINE</Elem>
+            <Elem>RLT_MAC</Elem>
+            <Elem>RLT_RF</Elem>
+            <Elem>RT28xx_MODE=AP</Elem>
+            <Elem>RTMP_EFUSE_SUPPORT</Elem>
+            <Elem>RTMP_INTERNAL_TX_ALC</Elem>
+            <Elem>RTMP_MAC_USB</Elem>
+            <Elem>RTMP_TIMER_TASK_SUPPORT</Elem>
+            <Elem>RTMP_USB_SUPPORT</Elem>
+            <Elem>RX_DMA_SCATTER</Elem>
+            <Elem>SCAN_SUPPORT</Elem>
+            <Elem>STATS_COUNT_SUPPORT</Elem>
+            <Elem>SYSTEM_LOG_SUPPORT</Elem>
+            <Elem>UAPSD_SUPPORT</Elem>
+            <Elem>VCORECAL_SUPPORT</Elem>
+            <Elem>WMM_SUPPORT</Elem>
+            <Elem>WSC_AP_SUPPORT</Elem>
+            <Elem>WSC_V2_SUPPORT</Elem>
+            <Elem>__KERNEL__</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/src/mcu">
+        <cTool>
+          <incDir>
+            <pElem>/usr/lib/gcc/i686-linux-gnu/5/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/generated</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/generated/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include/generated/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/ubuntu/include</pElem>
+            <pElem>src/include</pElem>
+            <pElem>src/ate/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>AGGREGATION_SUPPORT</Elem>
+            <Elem>AP_SCAN_SUPPORT</Elem>
+            <Elem>CC_HAVE_ASM_GOTO</Elem>
+            <Elem>CC_USING_FENTRY</Elem>
+            <Elem>CHIPSET=7601U</Elem>
+            <Elem>CONFIG_ANDES_SUPPORT</Elem>
+            <Elem>CONFIG_AP_SUPPORT</Elem>
+            <Elem>CONFIG_AS_AVX2=1</Elem>
+            <Elem>CONFIG_AS_AVX512=1</Elem>
+            <Elem>CONFIG_AS_AVX=1</Elem>
+            <Elem>CONFIG_AS_CFI=1</Elem>
+            <Elem>CONFIG_AS_CFI_SECTIONS=1</Elem>
+            <Elem>CONFIG_AS_CFI_SIGNAL_FRAME=1</Elem>
+            <Elem>CONFIG_AS_CRC32=1</Elem>
+            <Elem>CONFIG_AS_SHA1_NI=1</Elem>
+            <Elem>CONFIG_AS_SHA256_NI=1</Elem>
+            <Elem>CONFIG_AS_SSSE3=1</Elem>
+            <Elem>CONFIG_RT2880_ATE_CMD_NEW</Elem>
+            <Elem>CONFIG_RX_CSO_SUPPORT</Elem>
+            <Elem>DBG</Elem>
+            <Elem>DOT11N_DRAFT3</Elem>
+            <Elem>DOT11_N_SUPPORT</Elem>
+            <Elem>DOT1X_SUPPORT</Elem>
+            <Elem>DPD_CALIBRATION_SUPPORT</Elem>
+            <Elem>EXPORT_SYMTAB</Elem>
+            <Elem>HOSTAPD_SUPPORT</Elem>
+            <Elem>IAPP_SUPPORT</Elem>
+            <Elem>KBUILD_BASENAME="rtmp_M51"</Elem>
+            <Elem>KBUILD_MODNAME="mt7601Uap"</Elem>
+            <Elem>LINUX</Elem>
+            <Elem>MBSS_SUPPORT</Elem>
+            <Elem>MODULE</Elem>
+            <Elem>MT7601</Elem>
+            <Elem>MT7601U</Elem>
+            <Elem>NEW_MBSSID_MODE</Elem>
+            <Elem>OS_ABL_FUNC_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_AP_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_PCI_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_STA_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_USB_SUPPORT</Elem>
+            <Elem>OS_ABL_SUPPORT</Elem>
+            <Elem>PIGGYBACK_SUPPORT</Elem>
+            <Elem>RALINK_ATE</Elem>
+            <Elem>RALINK_QA</Elem>
+            <Elem>RESOURCE_PRE_ALLOC</Elem>
+            <Elem>RETPOLINE</Elem>
+            <Elem>RLT_MAC</Elem>
+            <Elem>RLT_RF</Elem>
+            <Elem>RT28xx_MODE=AP</Elem>
+            <Elem>RTMP_EFUSE_SUPPORT</Elem>
+            <Elem>RTMP_INTERNAL_TX_ALC</Elem>
+            <Elem>RTMP_MAC_USB</Elem>
+            <Elem>RTMP_TIMER_TASK_SUPPORT</Elem>
+            <Elem>RTMP_USB_SUPPORT</Elem>
+            <Elem>RX_DMA_SCATTER</Elem>
+            <Elem>SCAN_SUPPORT</Elem>
+            <Elem>STATS_COUNT_SUPPORT</Elem>
+            <Elem>SYSTEM_LOG_SUPPORT</Elem>
+            <Elem>UAPSD_SUPPORT</Elem>
+            <Elem>VCORECAL_SUPPORT</Elem>
+            <Elem>WMM_SUPPORT</Elem>
+            <Elem>WSC_AP_SUPPORT</Elem>
+            <Elem>WSC_V2_SUPPORT</Elem>
+            <Elem>__KERNEL__</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/src/mgmt">
+        <cTool>
+          <incDir>
+            <pElem>/usr/lib/gcc/i686-linux-gnu/5/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/generated</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/generated/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include/generated/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/ubuntu/include</pElem>
+            <pElem>src/include</pElem>
+            <pElem>src/ate/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>AGGREGATION_SUPPORT</Elem>
+            <Elem>AP_SCAN_SUPPORT</Elem>
+            <Elem>CC_HAVE_ASM_GOTO</Elem>
+            <Elem>CC_USING_FENTRY</Elem>
+            <Elem>CHIPSET=7601U</Elem>
+            <Elem>CONFIG_ANDES_SUPPORT</Elem>
+            <Elem>CONFIG_AP_SUPPORT</Elem>
+            <Elem>CONFIG_AS_AVX2=1</Elem>
+            <Elem>CONFIG_AS_AVX512=1</Elem>
+            <Elem>CONFIG_AS_AVX=1</Elem>
+            <Elem>CONFIG_AS_CFI=1</Elem>
+            <Elem>CONFIG_AS_CFI_SECTIONS=1</Elem>
+            <Elem>CONFIG_AS_CFI_SIGNAL_FRAME=1</Elem>
+            <Elem>CONFIG_AS_CRC32=1</Elem>
+            <Elem>CONFIG_AS_SHA1_NI=1</Elem>
+            <Elem>CONFIG_AS_SHA256_NI=1</Elem>
+            <Elem>CONFIG_AS_SSSE3=1</Elem>
+            <Elem>CONFIG_RT2880_ATE_CMD_NEW</Elem>
+            <Elem>CONFIG_RX_CSO_SUPPORT</Elem>
+            <Elem>DBG</Elem>
+            <Elem>DOT11N_DRAFT3</Elem>
+            <Elem>DOT11_N_SUPPORT</Elem>
+            <Elem>DOT1X_SUPPORT</Elem>
+            <Elem>DPD_CALIBRATION_SUPPORT</Elem>
+            <Elem>EXPORT_SYMTAB</Elem>
+            <Elem>HOSTAPD_SUPPORT</Elem>
+            <Elem>IAPP_SUPPORT</Elem>
+            <Elem>KBUILD_BASENAME="mgmt_entrytb"</Elem>
+            <Elem>KBUILD_MODNAME="mt7601Uap"</Elem>
+            <Elem>LINUX</Elem>
+            <Elem>MBSS_SUPPORT</Elem>
+            <Elem>MODULE</Elem>
+            <Elem>MT7601</Elem>
+            <Elem>MT7601U</Elem>
+            <Elem>NEW_MBSSID_MODE</Elem>
+            <Elem>OS_ABL_FUNC_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_AP_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_PCI_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_STA_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_USB_SUPPORT</Elem>
+            <Elem>OS_ABL_SUPPORT</Elem>
+            <Elem>PIGGYBACK_SUPPORT</Elem>
+            <Elem>RALINK_ATE</Elem>
+            <Elem>RALINK_QA</Elem>
+            <Elem>RESOURCE_PRE_ALLOC</Elem>
+            <Elem>RETPOLINE</Elem>
+            <Elem>RLT_MAC</Elem>
+            <Elem>RLT_RF</Elem>
+            <Elem>RT28xx_MODE=AP</Elem>
+            <Elem>RTMP_EFUSE_SUPPORT</Elem>
+            <Elem>RTMP_INTERNAL_TX_ALC</Elem>
+            <Elem>RTMP_MAC_USB</Elem>
+            <Elem>RTMP_TIMER_TASK_SUPPORT</Elem>
+            <Elem>RTMP_USB_SUPPORT</Elem>
+            <Elem>RX_DMA_SCATTER</Elem>
+            <Elem>SCAN_SUPPORT</Elem>
+            <Elem>STATS_COUNT_SUPPORT</Elem>
+            <Elem>SYSTEM_LOG_SUPPORT</Elem>
+            <Elem>UAPSD_SUPPORT</Elem>
+            <Elem>VCORECAL_SUPPORT</Elem>
+            <Elem>WMM_SUPPORT</Elem>
+            <Elem>WSC_AP_SUPPORT</Elem>
+            <Elem>WSC_V2_SUPPORT</Elem>
+            <Elem>__KERNEL__</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/src/os">
+        <cTool>
+          <incDir>
+            <pElem>/usr/lib/gcc/i686-linux-gnu/5/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/generated</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/generated/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include/generated/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/ubuntu/include</pElem>
+            <pElem>src/include</pElem>
+            <pElem>src/ate/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>AGGREGATION_SUPPORT</Elem>
+            <Elem>AP_SCAN_SUPPORT</Elem>
+            <Elem>CC_HAVE_ASM_GOTO</Elem>
+            <Elem>CC_USING_FENTRY</Elem>
+            <Elem>CHIPSET=7601U</Elem>
+            <Elem>CONFIG_ANDES_SUPPORT</Elem>
+            <Elem>CONFIG_AP_SUPPORT</Elem>
+            <Elem>CONFIG_AS_AVX2=1</Elem>
+            <Elem>CONFIG_AS_AVX512=1</Elem>
+            <Elem>CONFIG_AS_AVX=1</Elem>
+            <Elem>CONFIG_AS_CFI=1</Elem>
+            <Elem>CONFIG_AS_CFI_SECTIONS=1</Elem>
+            <Elem>CONFIG_AS_CFI_SIGNAL_FRAME=1</Elem>
+            <Elem>CONFIG_AS_CRC32=1</Elem>
+            <Elem>CONFIG_AS_SHA1_NI=1</Elem>
+            <Elem>CONFIG_AS_SHA256_NI=1</Elem>
+            <Elem>CONFIG_AS_SSSE3=1</Elem>
+            <Elem>CONFIG_RT2880_ATE_CMD_NEW</Elem>
+            <Elem>CONFIG_RX_CSO_SUPPORT</Elem>
+            <Elem>DBG</Elem>
+            <Elem>DOT11N_DRAFT3</Elem>
+            <Elem>DOT11_N_SUPPORT</Elem>
+            <Elem>DOT1X_SUPPORT</Elem>
+            <Elem>DPD_CALIBRATION_SUPPORT</Elem>
+            <Elem>EXPORT_SYMTAB</Elem>
+            <Elem>HOSTAPD_SUPPORT</Elem>
+            <Elem>IAPP_SUPPORT</Elem>
+            <Elem>KBUILD_BASENAME="ap_ioctl"</Elem>
+            <Elem>KBUILD_MODNAME="rtutil7601Uap"</Elem>
+            <Elem>LINUX</Elem>
+            <Elem>MBSS_SUPPORT</Elem>
+            <Elem>MODULE</Elem>
+            <Elem>MT7601</Elem>
+            <Elem>MT7601U</Elem>
+            <Elem>NEW_MBSSID_MODE</Elem>
+            <Elem>OS_ABL_FUNC_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_AP_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_PCI_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_STA_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_USB_SUPPORT</Elem>
+            <Elem>OS_ABL_SUPPORT</Elem>
+            <Elem>PIGGYBACK_SUPPORT</Elem>
+            <Elem>RALINK_ATE</Elem>
+            <Elem>RALINK_QA</Elem>
+            <Elem>RESOURCE_PRE_ALLOC</Elem>
+            <Elem>RETPOLINE</Elem>
+            <Elem>RLT_MAC</Elem>
+            <Elem>RLT_RF</Elem>
+            <Elem>RT28xx_MODE=AP</Elem>
+            <Elem>RTMP_EFUSE_SUPPORT</Elem>
+            <Elem>RTMP_INTERNAL_TX_ALC</Elem>
+            <Elem>RTMP_MAC_USB</Elem>
+            <Elem>RTMP_TIMER_TASK_SUPPORT</Elem>
+            <Elem>RTMP_USB_SUPPORT</Elem>
+            <Elem>RX_DMA_SCATTER</Elem>
+            <Elem>SCAN_SUPPORT</Elem>
+            <Elem>STATS_COUNT_SUPPORT</Elem>
+            <Elem>SYSTEM_LOG_SUPPORT</Elem>
+            <Elem>UAPSD_SUPPORT</Elem>
+            <Elem>VCORECAL_SUPPORT</Elem>
+            <Elem>WMM_SUPPORT</Elem>
+            <Elem>WSC_AP_SUPPORT</Elem>
+            <Elem>WSC_V2_SUPPORT</Elem>
+            <Elem>__KERNEL__</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/src/phy">
+        <cTool>
+          <incDir>
+            <pElem>/usr/lib/gcc/i686-linux-gnu/5/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/generated</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/generated/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include/generated/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/ubuntu/include</pElem>
+            <pElem>src/include</pElem>
+            <pElem>src/ate/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>AGGREGATION_SUPPORT</Elem>
+            <Elem>AP_SCAN_SUPPORT</Elem>
+            <Elem>CC_HAVE_ASM_GOTO</Elem>
+            <Elem>CC_USING_FENTRY</Elem>
+            <Elem>CHIPSET=7601U</Elem>
+            <Elem>CONFIG_ANDES_SUPPORT</Elem>
+            <Elem>CONFIG_AP_SUPPORT</Elem>
+            <Elem>CONFIG_AS_AVX2=1</Elem>
+            <Elem>CONFIG_AS_AVX512=1</Elem>
+            <Elem>CONFIG_AS_AVX=1</Elem>
+            <Elem>CONFIG_AS_CFI=1</Elem>
+            <Elem>CONFIG_AS_CFI_SECTIONS=1</Elem>
+            <Elem>CONFIG_AS_CFI_SIGNAL_FRAME=1</Elem>
+            <Elem>CONFIG_AS_CRC32=1</Elem>
+            <Elem>CONFIG_AS_SHA1_NI=1</Elem>
+            <Elem>CONFIG_AS_SHA256_NI=1</Elem>
+            <Elem>CONFIG_AS_SSSE3=1</Elem>
+            <Elem>CONFIG_RT2880_ATE_CMD_NEW</Elem>
+            <Elem>CONFIG_RX_CSO_SUPPORT</Elem>
+            <Elem>DBG</Elem>
+            <Elem>DOT11N_DRAFT3</Elem>
+            <Elem>DOT11_N_SUPPORT</Elem>
+            <Elem>DOT1X_SUPPORT</Elem>
+            <Elem>DPD_CALIBRATION_SUPPORT</Elem>
+            <Elem>EXPORT_SYMTAB</Elem>
+            <Elem>HOSTAPD_SUPPORT</Elem>
+            <Elem>IAPP_SUPPORT</Elem>
+            <Elem>KBUILD_BASENAME="rlt_phy"</Elem>
+            <Elem>KBUILD_MODNAME="mt7601Uap"</Elem>
+            <Elem>LINUX</Elem>
+            <Elem>MBSS_SUPPORT</Elem>
+            <Elem>MODULE</Elem>
+            <Elem>MT7601</Elem>
+            <Elem>MT7601U</Elem>
+            <Elem>NEW_MBSSID_MODE</Elem>
+            <Elem>OS_ABL_FUNC_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_AP_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_PCI_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_STA_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_USB_SUPPORT</Elem>
+            <Elem>OS_ABL_SUPPORT</Elem>
+            <Elem>PIGGYBACK_SUPPORT</Elem>
+            <Elem>RALINK_ATE</Elem>
+            <Elem>RALINK_QA</Elem>
+            <Elem>RESOURCE_PRE_ALLOC</Elem>
+            <Elem>RETPOLINE</Elem>
+            <Elem>RLT_MAC</Elem>
+            <Elem>RLT_RF</Elem>
+            <Elem>RT28xx_MODE=AP</Elem>
+            <Elem>RTMP_EFUSE_SUPPORT</Elem>
+            <Elem>RTMP_INTERNAL_TX_ALC</Elem>
+            <Elem>RTMP_MAC_USB</Elem>
+            <Elem>RTMP_TIMER_TASK_SUPPORT</Elem>
+            <Elem>RTMP_USB_SUPPORT</Elem>
+            <Elem>RX_DMA_SCATTER</Elem>
+            <Elem>SCAN_SUPPORT</Elem>
+            <Elem>STATS_COUNT_SUPPORT</Elem>
+            <Elem>SYSTEM_LOG_SUPPORT</Elem>
+            <Elem>UAPSD_SUPPORT</Elem>
+            <Elem>VCORECAL_SUPPORT</Elem>
+            <Elem>WMM_SUPPORT</Elem>
+            <Elem>WSC_AP_SUPPORT</Elem>
+            <Elem>WSC_V2_SUPPORT</Elem>
+            <Elem>__KERNEL__</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/src/rate_ctrl">
+        <cTool>
+          <incDir>
+            <pElem>/usr/lib/gcc/i686-linux-gnu/5/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/generated</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/arch/x86/include/generated/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/include/generated/uapi</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic/ubuntu/include</pElem>
+            <pElem>src/include</pElem>
+            <pElem>src/ate/include</pElem>
+            <pElem>/usr/src/linux-headers-4.15.0-36-generic</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>AGGREGATION_SUPPORT</Elem>
+            <Elem>AP_SCAN_SUPPORT</Elem>
+            <Elem>CC_HAVE_ASM_GOTO</Elem>
+            <Elem>CC_USING_FENTRY</Elem>
+            <Elem>CHIPSET=7601U</Elem>
+            <Elem>CONFIG_ANDES_SUPPORT</Elem>
+            <Elem>CONFIG_AP_SUPPORT</Elem>
+            <Elem>CONFIG_AS_AVX2=1</Elem>
+            <Elem>CONFIG_AS_AVX512=1</Elem>
+            <Elem>CONFIG_AS_AVX=1</Elem>
+            <Elem>CONFIG_AS_CFI=1</Elem>
+            <Elem>CONFIG_AS_CFI_SECTIONS=1</Elem>
+            <Elem>CONFIG_AS_CFI_SIGNAL_FRAME=1</Elem>
+            <Elem>CONFIG_AS_CRC32=1</Elem>
+            <Elem>CONFIG_AS_SHA1_NI=1</Elem>
+            <Elem>CONFIG_AS_SHA256_NI=1</Elem>
+            <Elem>CONFIG_AS_SSSE3=1</Elem>
+            <Elem>CONFIG_RT2880_ATE_CMD_NEW</Elem>
+            <Elem>CONFIG_RX_CSO_SUPPORT</Elem>
+            <Elem>DBG</Elem>
+            <Elem>DOT11N_DRAFT3</Elem>
+            <Elem>DOT11_N_SUPPORT</Elem>
+            <Elem>DOT1X_SUPPORT</Elem>
+            <Elem>DPD_CALIBRATION_SUPPORT</Elem>
+            <Elem>EXPORT_SYMTAB</Elem>
+            <Elem>HOSTAPD_SUPPORT</Elem>
+            <Elem>IAPP_SUPPORT</Elem>
+            <Elem>KBUILD_BASENAME="alg_ags"</Elem>
+            <Elem>KBUILD_MODNAME="mt7601Uap"</Elem>
+            <Elem>LINUX</Elem>
+            <Elem>MBSS_SUPPORT</Elem>
+            <Elem>MODULE</Elem>
+            <Elem>MT7601</Elem>
+            <Elem>MT7601U</Elem>
+            <Elem>NEW_MBSSID_MODE</Elem>
+            <Elem>OS_ABL_FUNC_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_AP_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_PCI_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_STA_SUPPORT</Elem>
+            <Elem>OS_ABL_OS_USB_SUPPORT</Elem>
+            <Elem>OS_ABL_SUPPORT</Elem>
+            <Elem>PIGGYBACK_SUPPORT</Elem>
+            <Elem>RALINK_ATE</Elem>
+            <Elem>RALINK_QA</Elem>
+            <Elem>RESOURCE_PRE_ALLOC</Elem>
+            <Elem>RETPOLINE</Elem>
+            <Elem>RLT_MAC</Elem>
+            <Elem>RLT_RF</Elem>
+            <Elem>RT28xx_MODE=AP</Elem>
+            <Elem>RTMP_EFUSE_SUPPORT</Elem>
+            <Elem>RTMP_INTERNAL_TX_ALC</Elem>
+            <Elem>RTMP_MAC_USB</Elem>
+            <Elem>RTMP_TIMER_TASK_SUPPORT</Elem>
+            <Elem>RTMP_USB_SUPPORT</Elem>
+            <Elem>RX_DMA_SCATTER</Elem>
+            <Elem>SCAN_SUPPORT</Elem>
+            <Elem>STATS_COUNT_SUPPORT</Elem>
+            <Elem>SYSTEM_LOG_SUPPORT</Elem>
+            <Elem>UAPSD_SUPPORT</Elem>
+            <Elem>VCORECAL_SUPPORT</Elem>
+            <Elem>WMM_SUPPORT</Elem>
+            <Elem>WSC_AP_SUPPORT</Elem>
+            <Elem>WSC_V2_SUPPORT</Elem>
+            <Elem>__KERNEL__</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <item path="src/ap/ap.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/ap/ap_assoc.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="ap_assoc"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/ap/ap_auth.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="ap_auth"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/ap/ap_autoChSel.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="ap_autoChSel"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/ap/ap_cfg.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="ap_cfg"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/ap/ap_connect.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="ap_connect"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/ap/ap_data.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="ap_data"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/ap/ap_mbss.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="ap_mbss"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/ap/ap_mbss_inf.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="ap_mbss_inf"</Elem>
+            <Elem>KBUILD_MODNAME="rtnet7601Uap"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/ap/ap_mlme.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="ap_mlme"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/ap/ap_qload.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="ap_qload"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/ap/ap_sanity.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="ap_sanity"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/ap/ap_sync.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="ap_sync"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/ap/ap_wpa.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="ap_wpa"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/ate/chips/mt7601_ate.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/ate/common/ate_usb.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/ate/common/rt_ate.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rt_ate"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/ate/common/rt_qa.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rt_qa"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/chips/mt7601.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/chips/rtmp_chip.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rtmp_chip"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/action.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/common/ba_action.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="ba_action"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/cmm_aes.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="cmm_aes"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/cmm_asic.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="cmm_asic"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/cmm_cfg.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="cmm_cfg"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/cmm_cmd.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="cmm_cmd"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/cmm_data.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="cmm_data"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/cmm_data_usb.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="cmm_data_usb"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/cmm_info.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="cmm_info"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/cmm_mac_usb.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="cmm_mac_usb"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/cmm_profile.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="cmm_profile"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/cmm_radar.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="cmm_radar"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/cmm_sanity.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="cmm_sanity"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/cmm_sync.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="cmm_sync"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/cmm_tkip.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="cmm_tkip"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/cmm_wep.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="cmm_wep"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/cmm_wpa.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="cmm_wpa"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/crypt_aes.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="crypt_aes"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/crypt_arc4.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="crypt_arc4"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/crypt_biginteger.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="crypt_biginteger"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/crypt_dh.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="crypt_dh"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/crypt_hmac.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="crypt_hmac"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/crypt_md5.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="crypt_md5"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/crypt_sha2.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="crypt_sha2"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/ee_efuse.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="ee_efuse"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/ee_prom.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="ee_prom"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/eeprom.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="eeprom"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/frq_cal.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="frq_cal"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/mlme.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="mlme"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/ps.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="ps"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/rt_channel.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rt_channel"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/rt_os_util.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rt_os_util"</Elem>
+            <Elem>KBUILD_MODNAME="rtutil7601Uap"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/rt_rf.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rt_rf"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/rtmp_init.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rtmp_init"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/rtmp_init_inf.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rtmp_init_inf"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/rtmp_timer.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rtmp_timer"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/rtusb_bulk.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rtusb_bulk"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/rtusb_data.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rtusb_data"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/rtusb_dev_id.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rtusb_dev_id"</Elem>
+            <Elem>KBUILD_MODNAME="rtnet7601Uap"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/rtusb_io.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rtusb_io"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/scan.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="scan"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/spectrum.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="spectrum"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/txpower.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="txpower"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/uapsd.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="uapsd"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/wsc.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="wsc"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/wsc_tlv.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="wsc_tlv"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/wsc_ufd.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="wsc_ufd"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/common/wsc_v2.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="wsc_v2"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/mac/ral_omac.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/mac/rtmp_mac.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rtmp_mac"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/mcu/rtmp_M51.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/mcu/rtmp_and.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rtmp_and"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/mcu/rtmp_mcu.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rtmp_mcu"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/mgmt/mgmt_entrytb.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/mgmt/mgmt_ht.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="mgmt_ht"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/mgmt/mgmt_hw.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="mgmt_hw"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/os/linux/ap_ioctl.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_MODNAME="rtnet7601Uap"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/os/linux/mt7601Uap.mod.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="mt7601Uap.mod"</Elem>
+            <Elem>KBUILD_MODNAME="mt7601Uap"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/os/linux/rt_linux.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rt_linux"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/os/linux/rt_linux_symb.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rt_linux_symb"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/os/linux/rt_main_dev.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rt_main_dev"</Elem>
+            <Elem>KBUILD_MODNAME="rtnet7601Uap"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/os/linux/rt_profile.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rt_profile"</Elem>
+            <Elem>KBUILD_MODNAME="mt7601Uap"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/os/linux/rt_rbus_pci_util.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rt_rbus_pci_util"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/os/linux/rt_symb.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rt_symb"</Elem>
+            <Elem>KBUILD_MODNAME="mt7601Uap"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/os/linux/rt_usb.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rt_usb"</Elem>
+            <Elem>KBUILD_MODNAME="mt7601Uap"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/os/linux/rt_usb_util.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rt_usb_util"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/os/linux/rtnet7601Uap.mod.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rtnet7601Uap.mod"</Elem>
+            <Elem>KBUILD_MODNAME="rtnet7601Uap"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/os/linux/rtutil7601Uap.mod.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rtutil7601Uap.mod"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/os/linux/usb_main_dev.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="usb_main_dev"</Elem>
+            <Elem>KBUILD_MODNAME="rtnet7601Uap"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/phy/rlt_phy.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/phy/rlt_rf.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rlt_rf"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/phy/rtmp_phy.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="rtmp_phy"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/rate_ctrl/alg_ags.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/rate_ctrl/alg_legacy.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="alg_legacy"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/rate_ctrl/ra_ctrl.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>KBUILD_BASENAME="ra_ctrl"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/tools/bin2h.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
