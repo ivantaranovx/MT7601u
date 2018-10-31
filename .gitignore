@@ -1,9 +1,0 @@
-*.o
-*.cmd
-*.ko
-*.cm
-Module.symvers
-modules.order
-.tmp_versions
-mt7610u.mod.c
-nbproject/
